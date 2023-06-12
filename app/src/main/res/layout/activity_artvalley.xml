@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ArtvalleyActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="포천아트밸리"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="left" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="포천시의 공원"
+        android:layout_marginBottom="20dp"
+        android:gravity="left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/artvalley" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주소: 경기도 포천시 신북면 아트밸리로 234"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="영업시간: 09:00 ~ 18:00"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="연락처: 031-538-3483"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btn_artvalleyMap"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="지도"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3px"
+        android:background="#808080"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="소개"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="포천 일대에서 생산된 포천석은 단단한 재질과 화강암의 고유 무늬를 간직하고 있어 청와대, 국회의사당, 인천공항 등 다양한 건축물의 건축자재로 쓰였다. 하지만, 채석이 끝난 후 포천의 산은 폐허로 방치되었다. 폐허의 채석장은 포천의 도시 이미지를 저해하고, 환경을 파괴하는 애물단지로 전락하였다. 이에 포천시는 2003년부터 버려져 방치되어 있었던 신북면 기지리 폐채석장의 환경을 복원하여 복합 문화예술공간인 포천 아트밸리를 만들었다."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="2009년 10월 개장한 이후, 연간 20만명 이상이 방문하고 있다. 자연경관과 여러 조형물이 조화를 이루고 있으며, 다양한 전시회와 공연, 체험 및 교육 프로그램이 진행되고 있다."
+        android:textColor="@color/black" />
+
+</LinearLayout>

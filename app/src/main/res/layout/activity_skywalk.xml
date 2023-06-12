@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkywalkActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="오륙도 스카이 워크"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="부산광역시의 전망대"
+            android:layout_marginBottom="20dp"
+            android:gravity="left" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/skywalk" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주소: 부산 남구 오륙도로 137"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="영업시간: 09:00 ~ 18:00"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="연락처: 051-607-6395"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/btn_skywalkMap"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="지도"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3px"
+            android:background="#808080"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="소개"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="오륙도 스카이 워크는 오륙도와 이기대가 결합된 부산의 해안 관광지에 해안 경관 조망이 결합된 관광 상품으로, 2012년 건립 계획을 수립하고 조성에 들어가 2013년 10월 18일 준공식을 하고 개장하였다."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="오륙도 스카이 워크는 오륙도 맞은편의 옛 한센인 정착 농원 자리에 조성되었다. 남구 용호동 산197번지 일원의 7만 7,536㎡ 면적에 조성되는 생태 광장에 자리한 시설이다. 오륙도 스카이 워크로 오르는 길 입구에는 오륙도 스카이 워크 표지석이 세워져 있고, 오를 때 신는 덧신 함이 놓여 있다. 오륙도 스카이 워크는 높이 37m의 부산만 북쪽의 해안 절벽 승두말에 설치되었다."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="형태는 9m가량 바다 쪽으로 돌출된 U자형의 되돌아올 수 있는 유리 전망대이다. 전체 폭은 지지대를 포함하여 5ｍ이다. 안전사고 방지를 위하여 오륙도 스카이 워크를 따라 강판 유리로 울타리가 쳐져 있다. 바닥부터 울타리까지 모두 유리로 되어 있어 신발 위에 덧신을 신고 올라가야 하며, 유리 파손의 위험 때문에 등산 스틱 사용은 금지되어 있다. 오륙도 스카이 워크 주변에는 벤치 등이 놓여 있는 1,594㎡의 광장과 쉼터가 조성되어 있다."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</ScrollView>

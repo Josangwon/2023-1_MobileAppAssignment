@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DalsungparkActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="달성공원"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="left" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="대구광역시의 공원"
+        android:layout_marginBottom="20dp"
+        android:gravity="left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/dalsungpark" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주소: 대구광역시 중구 달성공원로35"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="영업시간: 05:00 ~ 21:00"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="연락처: 053-803-7350"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btn_dalsungparkMap"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="지도"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3px"
+        android:background="#808080"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="소개"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="대구광역시 중구에 위치한 달성공원은 1915년 대한광복회가 결성된 곳이다. 대한광복회는 1913년 풍기에서 조직된 광복단과 1915년 대구에서 조직된 조선국권회복단이 합쳐진 것으로 군자금을 모아 독립군을 양성하고 친일부호를 처단하는 것을 활동목표로 삼았다. 광복회는 국권을 회복하고 공화제를 실현하는 것을 목적으로 하면서 각 도(都)에 곡물상과 잡화상을 열어 군자금을 모으고 친일부호들을 처단하면서 독립군을 양성하였다. 1918년 조직망이 발각되어 주요 인물이 검거된 후에도 일부 조직원들이 만주로 건너가 암살단, 의열단에 가입하면서 독립운동을 끝까지 펼쳐나갔다. 달성공원은 1963년에 사적 제62호로 지정되었다. 1968년 10월 지금의 달성공원 입구에서 남쪽으로 150m 떨어진 지점에서 삼국시대의 유물층(層)이 발견되고 토기들이 출토되었다. 공원 내에는 사적지로 지정된 달성(達城)과 동물원, 향토 역사관이 있다."
+        android:textColor="@color/black" />
+
+</LinearLayout>

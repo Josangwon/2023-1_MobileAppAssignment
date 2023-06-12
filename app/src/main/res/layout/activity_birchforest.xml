@@ -1,0 +1,95 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirchforestActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="속삭이는 자작나무 숲"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="인제군의 생태 공원"
+            android:layout_marginBottom="20dp"
+            android:gravity="left" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/birchforest" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="주소: 강원도 인제군 인제읍 원대리 산75-22"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="영업시간: 09:00 ~ 15:00 / 월,화 휴무"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="연락처: 033-461-9696"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:id="@+id/btn_birchforestMap"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="지도"
+                    android:textSize="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3px"
+            android:background="#808080"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="소개"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="인제읍 인근의 자연 생태관광지인 원대리 자작나무 숲은 1974년부터 1995년까지 138ha에 자작나무 690,000본을 조림하여 만들어졌으며 현재는 그중 25ha를 유아 숲 체험원으로 운영하고 있다. 자작나무 숲의 탐방은 입구에서 입산 기록 후 도보로 이용할 수 있다. 입구인 자작나무 숲 안내소에서 시작되는 임도를 따라 걸어야 자작나무 숲에 닿을 수 있다. 임도는 두 가지 길인데, 도보로 80분 가량 소요되는 원정임도와 1시간 가량 걸리는 원대임도다. 등산로를 따라 오르면 수령이 20년 이상 되는 자작나무가 빽빽하게 찬 숲이 펼쳐진다. 하얀 수피에 하늘을 향해 뻗은 자작나무 숲은 이국적인 풍취를 돋운다.
+    자작나무 숲만이 간직한 생태적, 심미적, 교육적 가치를 발굴하여 제공하고자 마련된 공간으로 인제군을 대표하는 자연 생태관광지로 자리 잡았다. 산불방지 입산통제 기간 봄철(2월 1일~5월 15일), 가을철(11월 1일~11월 15일)에는 입산이 통제되며, 기상 및 현장 여건에 따라 변동될 수 있다."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="겨울철에는 흰 눈에 뒤덮인 숲과 새하얀 자작나무가 어우러져 사진 촬영 장소로 인기가 좋다. 어린이가 있는 가족 단위의 방문객이라면 유아 숲 체험원에서 숲속교실, 인디언집 등 자연을 주제로 한 다양한 체험 활동을 즐길 수도 있다."
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+</ScrollView>

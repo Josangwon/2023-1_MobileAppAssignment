@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SusungpondActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="수성못 유원지"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="left" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="대구광역시의 공원"
+        android:layout_marginBottom="20dp"
+        android:gravity="left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/susungpond" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주소: 대구광역시 수성구 두산동 518-3"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="영업시간: 24시간 영업"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="연락처: -"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btn_susungpondMap"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="지도"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3px"
+        android:background="#808080"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="소개"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="수성유원지는 범물동 용지봉(629ｍ)에서 북서부로 뻗어 내린 줄기의 하부에 위치하여 주변의 완만한 산지와 수성못을 끼고 자연의 경관미를 이루고 있다. 1925년에 조성된 수성못을 중심으로 형성되었으며 저수량도 70만에 달하고 21만 8000㎡의 면적에 못 둘레도 2,020m에 이른다. 수성못은 1925년 일제강점기에 농업용수 공급용으로 조성된 인공 못이었다. 지금은 수변 휴식공간으로 활용되어 연중 풍부한 수량을 자랑하고있다. 수성못 주변에는 벤치와 수목, 산책로 유람선 선착장, 우주선, 유람선, 바이킹, 범버카, 회전목마 등의 놀이시설을 갖춘 수성랜드가 어우러져 유원지를 형성하고 있다. 보트놀이와 오리배 등을 즐길 수 있는 수성못과 어린이 놀이터, 두산폭포 등 볼거리, 즐길거리가 있어 가족나들이와 연인들의 데이트 코스로 적격이다. 2007년 9월 설치된 영상음악분수는 5월부터 10월까지 매일 4회에 주간, 야간 공연을 하며 이색적인 볼거리를 제공한다."
+        android:textColor="@color/black" />
+
+</LinearLayout>

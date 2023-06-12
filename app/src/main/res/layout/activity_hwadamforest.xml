@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HwadamforestActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="화담숲"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="left" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:text="광주시의 수목원"
+        android:layout_marginBottom="20dp"
+        android:gravity="left" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/hwadamforest" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주소: 경기도 광주시 도척면 도척윗로 278"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="영업시간: 09:00 ~ 18:00"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="연락처: 031-8026-6666"
+                android:textColor="@color/black"/>
+            <Button
+                android:id="@+id/btn_hwadamforestMap"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="지도"
+                android:textSize="10dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="3px"
+        android:background="#808080"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="소개"
+        android:textStyle="bold"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="경기도 광주시 도척면에 있는 곤지암리조트 내에 있는 LG그룹의 LG상록재단 사립 수목원으로 화담(和談)은 3대 LG그룹 회장이었던 구본무 회장의 아호로 정답게 얘기를 나누며 숲을 산책하다라는 뜻이다. 구 회장은 생전에 자연과 생물에 관심이 있는 것으로 알려졌으며 이를 통해서 지금의 광주 도척면 도웅리 산 곤지암리조트 뒷편에 있는 숲 일대에서 지금의 화담숲을 조성하였으며 2006년 4월 경기도 광주시청으로부터 수목원 조성 승인을 받아 착공하고 2010년에 가개장을 하였다가 2013년 6월에 화담숲이라는 이름으로 공식 개장하였다."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="면적은 약 5만평의 수목 일대와 산책로, 암석원, 자작나무원, 무궁화원, 수련원, 이끼원, 단풍원, 철쭉원, 소나무원과 2대 LG그룹 회장을 지냈던 구자경 회장의 아호를 본딴 상남분재원이 있다."
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="현재 화담숲 관내를 운행하는 모노레일과 화담숲 주차장을 운행하는 리프트가 있다."
+        android:textColor="@color/black" />
+
+</LinearLayout>
