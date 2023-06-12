@@ -1,5 +1,4 @@
 # 국내 관광지 소개 앱
-2023학년도 1학기 모바일앱개발 과목 기말과제
 시연영상: https://www.youtube.com/watch?v=pN7CNC77XBM
 
 ![image](https://github.com/Josangwon/2023-1_MobileAppAssignment/assets/105706573/5039fc0d-4586-46aa-9ed5-b7c1f35fde80)
